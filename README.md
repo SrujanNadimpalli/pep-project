@@ -69,6 +69,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+# code structure 
+
+The project is structured into several React components, each responsible for a specific part of the application:
+
+App Component: This is the root component of the application. It sets up the router and defines the routes for the application. It also manages the state for the user details.
+Navbar Component: This component contains the navigation links for the application. It uses the Link component from react-router-dom to create the navigation links.
+Home Component: This component is responsible for displaying the user details. It receives the user details as props from the App component.
+FormAction Component: This component contains a form to collect user input. It updates the user details in the App component when the form is submitted.
+
+# challenges faced 
+State Management: One of the main challenges in this project is managing the state of the user details. The state needs to be lifted up to the App component so that it can be shared between the Home and FormAction components.
+Routing: Setting up routing can be a bit tricky, especially for beginners. It’s important to correctly set up the routes and links to ensure that the application navigates correctly between the different components.
+Form Handling: Handling form submission and updating the state based on the user input can also be challenging. It’s important to correctly set up the form and the event handler for the form submission.
+Understanding React Concepts: If you’re new to React, understanding concepts like components, props, and state can be challenging. It’s important to have a good understanding of these concepts to successfully implement this project.
+
 # Output
 
 ![pep1](https://github.com/SrujanNadimpalli/pep-project/assets/127650135/96aec0b9-9b6b-421e-835b-5c56e672c14f)
